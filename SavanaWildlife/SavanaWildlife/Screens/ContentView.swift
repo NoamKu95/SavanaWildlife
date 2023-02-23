@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Content View")
+        NavigationView {
+            List {
+                CarouselImage()
+                    .frame(height: 300)
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+            }
+            .navigationBarTitle("Savanna", displayMode: .large)
         }
-        .padding()
     }
 }
 

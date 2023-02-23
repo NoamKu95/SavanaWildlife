@@ -9,14 +9,14 @@ import SwiftUI
 
 struct CarouselImage: View {
     
-    var imageName: String
+    let carouselImages: [CarouselCoverImage] = Bundle.main.decode("covers.json")
     
     var body: some View {
         TabView {
-            ForEach(0 ..< 5) { item in
-                Image(imageName)
+            ForEach(carouselImages) { item in
+                Image(item.imageName)
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
             }
         }
         .tabViewStyle(PageTabViewStyle())
@@ -25,7 +25,7 @@ struct CarouselImage: View {
 
 struct CarouselImage_Previews: PreviewProvider {
     static var previews: some View {
-        CarouselImage(imageName: "cover-lion")
+        CarouselImage()
             .previewLayout(.fixed(width: 400, height: 300))
     }
 }

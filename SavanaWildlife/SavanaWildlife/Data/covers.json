@@ -1,30 +1,30 @@
 [
   {
     "id" : 1,
-    "name" : "cover-lion"
+    "imageName" : "cover-lion"
   },
   {
     "id" : 2,
-    "name" : "cover-elephant"
+    "imageName" : "cover-elephant"
   },
   {
     "id" : 3,
-    "name" : "cover-cheetah"
+    "imageName" : "cover-cheetah"
   },
   {
     "id" : 4,
-    "name" : "cover-zebra"
+    "imageName" : "cover-zebra"
   },
   {
     "id" : 5,
-    "name" : "cover-buffalo"
+    "imageName" : "cover-buffalo"
   },
   {
     "id" : 6,
-    "name" : "cover-giraffe"
+    "imageName" : "cover-giraffe"
   },
   {
     "id" : 7,
-    "name" : "cover-gorilla"
+    "imageName" : "cover-gorilla"
   }
 ]

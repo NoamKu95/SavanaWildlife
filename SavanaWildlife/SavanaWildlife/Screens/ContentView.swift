@@ -19,7 +19,9 @@ struct ContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animalsList) { animal in
-                    AnimalListItem(animal: animal)
+                    NavigationLink(destination: AnimalDetails(animal: animal)) {
+                        AnimalListItem(animal: animal)
+                    }
                 }
             }
             .navigationBarTitle("Savanna", displayMode: .large)

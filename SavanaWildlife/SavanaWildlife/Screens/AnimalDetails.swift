@@ -48,8 +48,29 @@ struct AnimalDetails: View {
                 .padding(.vertical)
                 
                 // facts
+                Group {
+                    SectionIconTitle(iconName: "questionmark.circle", titleText: "Did you know?")
+                    FactsCarouselView(animal: animal)
+                }
+                .padding(.horizontal)
+                
+                // description
+                Group {
+                    SectionIconTitle(iconName: "info.circle", titleText: "All about \(animal.name)")
+                    Text(animal.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+                
+                // map
+                Group {
+                    SectionIconTitle(iconName: "map", titleText: "National Parks")
+                }
+                .padding(.horizontal)
+                
             }
-            .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
+            .navigationBarTitle("Learn about the \(animal.name)", displayMode: .inline)
         }
     }
 }

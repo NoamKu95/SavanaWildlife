@@ -37,6 +37,8 @@
 		43A18B4229A7D2E60060B5F8 /* AnimalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B4129A7D2E60060B5F8 /* AnimalDetails.swift */; };
 		43A18B4529A7D6F20060B5F8 /* SectionIconTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B4429A7D6F20060B5F8 /* SectionIconTitle.swift */; };
 		43A18B4729A7D80F0060B5F8 /* InsetGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B4629A7D80F0060B5F8 /* InsetGallery.swift */; };
+		43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B4829A917DB0060B5F8 /* FactsCarouselView.swift */; };
+		43A18B4F29A91C990060B5F8 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B4E29A91C990060B5F8 /* InsetMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		43A18B4129A7D2E60060B5F8 /* AnimalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetails.swift; sourceTree = "<group>"; };
 		43A18B4429A7D6F20060B5F8 /* SectionIconTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionIconTitle.swift; sourceTree = "<group>"; };
 		43A18B4629A7D80F0060B5F8 /* InsetGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGallery.swift; sourceTree = "<group>"; };
+		43A18B4829A917DB0060B5F8 /* FactsCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCarouselView.swift; sourceTree = "<group>"; };
+		43A18B4E29A91C990060B5F8 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,8 @@
 			children = (
 				43A18B4429A7D6F20060B5F8 /* SectionIconTitle.swift */,
 				43A18B4629A7D80F0060B5F8 /* InsetGallery.swift */,
+				43A18B4829A917DB0060B5F8 /* FactsCarouselView.swift */,
+				43A18B4E29A91C990060B5F8 /* InsetMapView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -312,8 +318,10 @@
 				43A18B3E29A7B8340060B5F8 /* AnimalListItem.swift in Sources */,
 				43A18B4529A7D6F20060B5F8 /* SectionIconTitle.swift in Sources */,
 				43A18B4729A7D80F0060B5F8 /* InsetGallery.swift in Sources */,
+				43A18B4F29A91C990060B5F8 /* InsetMapView.swift in Sources */,
 				43A18B3429A7AD600060B5F8 /* Map.swift in Sources */,
 				43A18B3829A7B1700060B5F8 /* CarouselImageModel.swift in Sources */,
+				43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */,
 				43A18B3629A7AF430060B5F8 /* CarouselImage.swift in Sources */,
 				43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */,
 				43A18B3B29A7B2F90060B5F8 /* CodableBundleExtension.swift in Sources */,
@@ -453,6 +461,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +491,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

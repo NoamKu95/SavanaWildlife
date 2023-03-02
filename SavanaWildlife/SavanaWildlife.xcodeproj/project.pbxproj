@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430137BB29B0B01B00184AAF /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137BA29B0B01B00184AAF /* MapScreen.swift */; };
 		43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */; };
 		43A18AFD29A7A5630060B5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFC29A7A5630060B5F8 /* ContentView.swift */; };
 		43A18AFF29A7A5640060B5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A18AFE29A7A5640060B5F8 /* Assets.xcassets */; };
@@ -28,7 +29,6 @@
 		43A18B2C29A7AC250060B5F8 /* VideosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B2B29A7AC250060B5F8 /* VideosList.swift */; };
 		43A18B2E29A7AC990060B5F8 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B2D29A7AC990060B5F8 /* Gallery.swift */; };
 		43A18B3229A7AD170060B5F8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B3129A7AD170060B5F8 /* TabBarView.swift */; };
-		43A18B3429A7AD600060B5F8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B3329A7AD600060B5F8 /* Map.swift */; };
 		43A18B3629A7AF430060B5F8 /* CarouselImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B3529A7AF430060B5F8 /* CarouselImage.swift */; };
 		43A18B3829A7B1700060B5F8 /* CarouselImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B3729A7B1700060B5F8 /* CarouselImageModel.swift */; };
 		43A18B3B29A7B2F90060B5F8 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18B3A29A7B2F90060B5F8 /* CodableBundleExtension.swift */; };
@@ -42,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430137BA29B0B01B00184AAF /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		43A18AF729A7A5630060B5F8 /* SavanaWildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavanaWildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavanaWildlifeApp.swift; sourceTree = "<group>"; };
 		43A18AFC29A7A5630060B5F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		43A18B2B29A7AC250060B5F8 /* VideosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosList.swift; sourceTree = "<group>"; };
 		43A18B2D29A7AC990060B5F8 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		43A18B3129A7AD170060B5F8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		43A18B3329A7AD600060B5F8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		43A18B3529A7AF430060B5F8 /* CarouselImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImage.swift; sourceTree = "<group>"; };
 		43A18B3729A7B1700060B5F8 /* CarouselImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImageModel.swift; sourceTree = "<group>"; };
 		43A18B3A29A7B2F90060B5F8 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -145,8 +145,8 @@
 				43A18B2B29A7AC250060B5F8 /* VideosList.swift */,
 				43A18B2D29A7AC990060B5F8 /* Gallery.swift */,
 				43A18B3129A7AD170060B5F8 /* TabBarView.swift */,
-				43A18B3329A7AD600060B5F8 /* Map.swift */,
 				43A18B4129A7D2E60060B5F8 /* AnimalDetails.swift */,
+				430137BA29B0B01B00184AAF /* MapScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -317,9 +317,9 @@
 				43A18B3229A7AD170060B5F8 /* TabBarView.swift in Sources */,
 				43A18B3E29A7B8340060B5F8 /* AnimalListItem.swift in Sources */,
 				43A18B4529A7D6F20060B5F8 /* SectionIconTitle.swift in Sources */,
+				430137BB29B0B01B00184AAF /* MapScreen.swift in Sources */,
 				43A18B4729A7D80F0060B5F8 /* InsetGallery.swift in Sources */,
 				43A18B4F29A91C990060B5F8 /* InsetMapView.swift in Sources */,
-				43A18B3429A7AD600060B5F8 /* Map.swift in Sources */,
 				43A18B3829A7B1700060B5F8 /* CarouselImageModel.swift in Sources */,
 				43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */,
 				43A18B3629A7AF430060B5F8 /* CarouselImage.swift in Sources */,

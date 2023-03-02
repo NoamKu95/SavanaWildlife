@@ -22,7 +22,7 @@ struct TabBarView: View {
                     Text("Watch")
                 }
             
-            Map()
+            MapScreen()
                 .tabItem {
                     Image(systemName: "map")
                     Text("Find")

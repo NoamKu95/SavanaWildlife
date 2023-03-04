@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		430137BB29B0B01B00184AAF /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137BA29B0B01B00184AAF /* MapScreen.swift */; };
+		430137BD29B32C7500184AAF /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137BC29B32C7500184AAF /* ExternalWeblinkView.swift */; };
+		430137BF29B3309D00184AAF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137BE29B3309D00184AAF /* Video.swift */; };
+		430137C129B3311600184AAF /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C029B3311600184AAF /* VideoListItem.swift */; };
+		430137C429B338B800184AAF /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C329B338B800184AAF /* VideoPlayerView.swift */; };
+		430137C729B339FA00184AAF /* VideoPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C629B339FA00184AAF /* VideoPlayerManager.swift */; };
 		43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */; };
 		43A18AFD29A7A5630060B5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFC29A7A5630060B5F8 /* ContentView.swift */; };
 		43A18AFF29A7A5640060B5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A18AFE29A7A5640060B5F8 /* Assets.xcassets */; };
@@ -43,6 +48,11 @@
 
 /* Begin PBXFileReference section */
 		430137BA29B0B01B00184AAF /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		430137BC29B32C7500184AAF /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		430137BE29B3309D00184AAF /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		430137C029B3311600184AAF /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
+		430137C329B338B800184AAF /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		430137C629B339FA00184AAF /* VideoPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerManager.swift; sourceTree = "<group>"; };
 		43A18AF729A7A5630060B5F8 /* SavanaWildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavanaWildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavanaWildlifeApp.swift; sourceTree = "<group>"; };
 		43A18AFC29A7A5630060B5F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		430137C229B3346000184AAF /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				430137C029B3311600184AAF /* VideoListItem.swift */,
+				430137C329B338B800184AAF /* VideoPlayerView.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		430137C529B339DE00184AAF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				430137C629B339FA00184AAF /* VideoPlayerManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		43A18AEE29A7A5630060B5F8 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +143,7 @@
 				43A18B0A29A7A5C70060B5F8 /* Models */,
 				43A18B0929A7A5990060B5F8 /* Screens */,
 				43A18B0829A7A5700060B5F8 /* Views */,
+				430137C529B339DE00184AAF /* Utils */,
 				43A18B0029A7A5640060B5F8 /* Preview Content */,
 			);
 			path = SavanaWildlife;
@@ -132,6 +160,7 @@
 		43A18B0829A7A5700060B5F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				430137C229B3346000184AAF /* Videos */,
 				43A18B4329A7D69D0060B5F8 /* Details */,
 				43A18B3C29A7B81A0060B5F8 /* Home */,
 			);
@@ -156,6 +185,7 @@
 			children = (
 				43A18B3729A7B1700060B5F8 /* CarouselImageModel.swift */,
 				43A18B3F29A7B9670060B5F8 /* Animal.swift */,
+				430137BE29B3309D00184AAF /* Video.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +251,7 @@
 				43A18B4629A7D80F0060B5F8 /* InsetGallery.swift */,
 				43A18B4829A917DB0060B5F8 /* FactsCarouselView.swift */,
 				43A18B4E29A91C990060B5F8 /* InsetMapView.swift */,
+				430137BC29B32C7500184AAF /* ExternalWeblinkView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -309,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430137BD29B32C7500184AAF /* ExternalWeblinkView.swift in Sources */,
 				43A18B4029A7B9670060B5F8 /* Animal.swift in Sources */,
 				43A18B2E29A7AC990060B5F8 /* Gallery.swift in Sources */,
 				43A18B4229A7D2E60060B5F8 /* AnimalDetails.swift in Sources */,
@@ -321,10 +353,14 @@
 				43A18B4729A7D80F0060B5F8 /* InsetGallery.swift in Sources */,
 				43A18B4F29A91C990060B5F8 /* InsetMapView.swift in Sources */,
 				43A18B3829A7B1700060B5F8 /* CarouselImageModel.swift in Sources */,
+				430137C729B339FA00184AAF /* VideoPlayerManager.swift in Sources */,
+				430137BF29B3309D00184AAF /* Video.swift in Sources */,
 				43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */,
 				43A18B3629A7AF430060B5F8 /* CarouselImage.swift in Sources */,
+				430137C129B3311600184AAF /* VideoListItem.swift in Sources */,
 				43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */,
 				43A18B3B29A7B2F90060B5F8 /* CodableBundleExtension.swift in Sources */,
+				430137C429B338B800184AAF /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

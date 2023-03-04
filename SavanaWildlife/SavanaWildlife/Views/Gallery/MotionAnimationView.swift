@@ -25,7 +25,7 @@ struct MotionAnimationView: View {
     }
     
     func randomSpeed() -> Double {
-        return Double.random(in: 0.025...1.0)
+        return Double.random(in: 0.025...1.5)
     }
     
     func randomDelay() -> Double {
@@ -41,8 +41,8 @@ struct MotionAnimationView: View {
                         .opacity(0.15)
                         .frame(width: randomSize(), height: randomSize(), alignment: .center)
                         .scaleEffect( isAnimating ? randomcScale() : 1)
-                        .position(x: randomCoordinates(max: geometry.size.width / 2),
-                                  y: randomCoordinates(max: geometry.size.height / 2))
+                        .position(x: randomCoordinates(max: geometry.size.width),
+                                  y: randomCoordinates(max: geometry.size.height))
                         .animation(
                             .interpolatingSpring(stiffness: 0.5, damping: 0.5)
                             .repeatForever()

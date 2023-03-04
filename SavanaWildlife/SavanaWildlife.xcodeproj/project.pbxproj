@@ -16,6 +16,7 @@
 		430137C929B3416800184AAF /* AnimalLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C829B3416800184AAF /* AnimalLocation.swift */; };
 		430137CC29B360FF00184AAF /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137CB29B360FF00184AAF /* MapAnnotationView.swift */; };
 		430137CF29B3682100184AAF /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137CE29B3682100184AAF /* MotionAnimationView.swift */; };
+		430137D129B3B55100184AAF /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137D029B3B55100184AAF /* AnimalGridItemView.swift */; };
 		43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */; };
 		43A18AFD29A7A5630060B5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFC29A7A5630060B5F8 /* ContentView.swift */; };
 		43A18AFF29A7A5640060B5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A18AFE29A7A5640060B5F8 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		430137C829B3416800184AAF /* AnimalLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLocation.swift; sourceTree = "<group>"; };
 		430137CB29B360FF00184AAF /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		430137CE29B3682100184AAF /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		430137D029B3B55100184AAF /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		43A18AF729A7A5630060B5F8 /* SavanaWildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavanaWildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavanaWildlifeApp.swift; sourceTree = "<group>"; };
 		43A18AFC29A7A5630060B5F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			children = (
 				43A18B3529A7AF430060B5F8 /* CarouselImage.swift */,
 				43A18B3D29A7B8340060B5F8 /* AnimalListItem.swift */,
+				430137D029B3B55100184AAF /* AnimalGridItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				430137BF29B3309D00184AAF /* Video.swift in Sources */,
 				43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */,
 				43A18B3629A7AF430060B5F8 /* CarouselImage.swift in Sources */,
+				430137D129B3B55100184AAF /* AnimalGridItemView.swift in Sources */,
 				430137C129B3311600184AAF /* VideoListItem.swift in Sources */,
 				43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */,
 				43A18B3B29A7B2F90060B5F8 /* CodableBundleExtension.swift in Sources */,

@@ -60,12 +60,23 @@ struct AnimalDetails: View {
                     Text(animal.description)
                         .multilineTextAlignment(.leading)
                         .layoutPriority(1)
+                        .padding(.bottom, 8)
                 }
                 .padding(.horizontal)
                 
                 // map
                 Group {
                     SectionIconTitle(iconName: "map", titleText: "National Parks")
+                    InsetMapView()
+                        .padding(.bottom, 8)
+                }
+                .padding(.horizontal)
+                
+                // link
+                Group {
+                    SectionIconTitle(iconName: "books.vertical", titleText: "Learn more")
+                    ExternalWeblinkView(animal: animal)
+                        .padding(.bottom, 8)
                 }
                 .padding(.horizontal)
                 
@@ -81,6 +92,5 @@ struct AnimalDetails_Previews: PreviewProvider {
         NavigationView {
             AnimalDetails(animal: animalsList[0])
         }
-        
     }
 }

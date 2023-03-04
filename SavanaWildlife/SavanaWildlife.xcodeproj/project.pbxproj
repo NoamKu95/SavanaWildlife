@@ -13,6 +13,8 @@
 		430137C129B3311600184AAF /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C029B3311600184AAF /* VideoListItem.swift */; };
 		430137C429B338B800184AAF /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C329B338B800184AAF /* VideoPlayerView.swift */; };
 		430137C729B339FA00184AAF /* VideoPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C629B339FA00184AAF /* VideoPlayerManager.swift */; };
+		430137C929B3416800184AAF /* AnimalLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137C829B3416800184AAF /* AnimalLocation.swift */; };
+		430137CC29B360FF00184AAF /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430137CB29B360FF00184AAF /* MapAnnotationView.swift */; };
 		43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */; };
 		43A18AFD29A7A5630060B5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A18AFC29A7A5630060B5F8 /* ContentView.swift */; };
 		43A18AFF29A7A5640060B5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A18AFE29A7A5640060B5F8 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		430137C029B3311600184AAF /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		430137C329B338B800184AAF /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		430137C629B339FA00184AAF /* VideoPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerManager.swift; sourceTree = "<group>"; };
+		430137C829B3416800184AAF /* AnimalLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLocation.swift; sourceTree = "<group>"; };
+		430137CB29B360FF00184AAF /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		43A18AF729A7A5630060B5F8 /* SavanaWildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavanaWildlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A18AFA29A7A5630060B5F8 /* SavanaWildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavanaWildlifeApp.swift; sourceTree = "<group>"; };
 		43A18AFC29A7A5630060B5F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +120,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		430137CA29B360EF00184AAF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				430137CB29B360FF00184AAF /* MapAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		43A18AEE29A7A5630060B5F8 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +172,7 @@
 		43A18B0829A7A5700060B5F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				430137CA29B360EF00184AAF /* Map */,
 				430137C229B3346000184AAF /* Videos */,
 				43A18B4329A7D69D0060B5F8 /* Details */,
 				43A18B3C29A7B81A0060B5F8 /* Home */,
@@ -186,6 +199,7 @@
 				43A18B3729A7B1700060B5F8 /* CarouselImageModel.swift */,
 				43A18B3F29A7B9670060B5F8 /* Animal.swift */,
 				430137BE29B3309D00184AAF /* Video.swift */,
+				430137C829B3416800184AAF /* AnimalLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -353,6 +367,7 @@
 				43A18B4729A7D80F0060B5F8 /* InsetGallery.swift in Sources */,
 				43A18B4F29A91C990060B5F8 /* InsetMapView.swift in Sources */,
 				43A18B3829A7B1700060B5F8 /* CarouselImageModel.swift in Sources */,
+				430137CC29B360FF00184AAF /* MapAnnotationView.swift in Sources */,
 				430137C729B339FA00184AAF /* VideoPlayerManager.swift in Sources */,
 				430137BF29B3309D00184AAF /* Video.swift in Sources */,
 				43A18B4929A917DB0060B5F8 /* FactsCarouselView.swift in Sources */,
@@ -360,6 +375,7 @@
 				430137C129B3311600184AAF /* VideoListItem.swift in Sources */,
 				43A18AFB29A7A5630060B5F8 /* SavanaWildlifeApp.swift in Sources */,
 				43A18B3B29A7B2F90060B5F8 /* CodableBundleExtension.swift in Sources */,
+				430137C929B3416800184AAF /* AnimalLocation.swift in Sources */,
 				430137C429B338B800184AAF /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
